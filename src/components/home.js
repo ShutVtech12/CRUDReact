@@ -13,11 +13,11 @@ class Home extends React.Component {
     render() {
         return (
             <Container className="MarginContainer" >
-                <h1 className="AlignCenter" > CREAR, ALTAS, BAJAS Y CAMBI </h1>
+                <h1 className="AlignCenter" > CREAR, ALTAS, BAJAS Y CAMBIOS </h1>
                 <hr style={{ width: "80%" }} />
                 
                 <Button variant="info" style={{ margin: "12px" }}>
-                    <Link to="/Proyecto/agregar" className="CustomLink">NUEVA PREGUNTAA</Link>
+                    <Link to="/2CV3IDE8IDP3/agregar" className="CustomLink">NUEVA PREGUNTA</Link>
                 </Button>
                 <Table striped bordered >
                     <thead>
