@@ -24,7 +24,7 @@ class Login extends React.Component {
             password: password
         }
 
-        $.get("http://localhost:8080/Proyecto/Login",datos, (resultado)=>{
+        $.get("http://localhost:8080/2CV3IDE8IDP3/Login",datos, (resultado)=>{
           if(resultado[0].usuario !="error"){
             this.state.val = true;
             this.forceUpdate();
