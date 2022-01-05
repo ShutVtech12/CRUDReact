@@ -25,7 +25,7 @@ class Home extends React.Component {
         const { data, showAlert, alertText } = this.state;
         return (
             <Container className="MarginContainer" >
-                <h1 className="AlignCenter" > CREAR, ALTAS, BAJAS Y CAMBIOS Y mas</h1>
+                <h1 className="AlignCenter" > CREAR, ALTAS, BAJAS Y CAMBIOS chidos</h1>
                 <hr style={{ width: "80%" }} />
                 {
                     showAlert ?

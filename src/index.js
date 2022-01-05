@@ -12,10 +12,10 @@ const App = () => {
     return (
         <div>
             <Switch>
-                <Route exact path="/2CV3IDE8IDP3/">
+                <Route exact path="/2CV13IDA8IDPF/">
                     <Login />
                 </Route>
-                <Route exact path="/2CV3IDE8IDP3/home">
+                <Route exact path="/2CV13IDA8IDPF/home">
                     <Home />
                 </Route>
                 <Route path="*" render={() => <h1>Recurso no encontrado</h1>} />
